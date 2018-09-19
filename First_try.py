@@ -34,4 +34,4 @@ for i in range(1,n+1):
         print(i)
         mysum += i
         count += 1
-print("the average is " + str(mysum/count))
+print("the average is " + str(mysum/count)) #comment
