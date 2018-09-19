@@ -7,6 +7,7 @@ Created on Sun Sep 16 17:25:12 2018
 """
 
 """34*x^2+ 64*x -510=0 """
+"""
 import math
 a=34
 b=68
@@ -24,4 +25,13 @@ for i in range(5):
         break
     
 print("out of loop after " +str(count) + " counts")
-print("testing")
+print("testing") """
+mysum=0
+count=0
+n=int(input("enter number: "))
+for i in range(1,n+1):
+    if i % 7 == 0 and i % 2 == 0:
+        print(i)
+        mysum += i
+        count += 1
+print("the average is " + str(mysum/count))
